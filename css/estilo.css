@@ -1,0 +1,227 @@
+/* Formatar todos os Elementos */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+body{
+    margin: 0;
+}
+
+/* Header*/
+
+header{
+    display: 100%;
+}
+
+header nav{
+    width: 100%;
+    text-align: right;
+}
+
+header nav ul{
+    padding-top: 2px;
+    margin-right: 25px;
+}
+
+header ul li{
+    display: inline;
+    padding: 0 8px;
+    color: #333;
+    cursor: pointer;
+}
+
+header ul li:hover{
+    text-decoration: underline;
+    opacity: .8;
+}
+
+header ul li img:hover{
+    opacity: 1;
+}
+
+
+header img{
+    vertical-align: middle;
+    opacity: .5;
+}
+
+header button{
+    background-color: #4386fa;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 2px;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+header ul li button:hover{
+    opacity: 1;
+    cursor: default;
+}
+
+/* Conteúdo Principal*/
+
+main{
+    width: 100%;
+    max-width: 800px;
+    margin: 8% auto;
+    justify-content: center;
+}
+
+
+.logotipo{
+    display: flex;
+    justify-content: center;
+}
+
+.barra-pesquisa{
+    border: 1px solid #dfe1e5;
+    width: 600px;
+    border-radius: 25px;
+    display: flex;
+    margin: 30px auto;
+}
+
+.barra-pesquisa:hover, .barra-pesquisa:focus{
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.barra-pesquisa img{
+    margin: auto 15px;
+}
+
+.lupa{
+    width: 16px;
+    height: 16px;
+}
+
+.tecrado{
+    width: 21px;
+    height: 13px;
+}
+
+.barra-pesquisa input{
+    flex: 1;
+    height: 45px;
+    border: none;
+}
+
+.botoes-pesquisa{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.botoes-pesquisa button{
+    background-color: #f3f3f3;
+    border: none;
+    color: #777;
+    padding:10px;
+    margin: 0 7px;
+    border-radius: 2px;
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+    
+}
+
+.botoes-pesquisa button:hover{
+    color: #333;
+    border: 1px solid #c6c6c6;
+}
+
+.p-conteudo-idioma{
+    text-align: center;
+
+}
+
+.p-conteudo-idioma a{
+    text-decoration: none;
+}
+
+.p-conteudo-idioma a:hover{
+    text-decoration: underline;
+}
+
+/* Rodapé / Footer*/
+
+footer{
+    color: #555;
+    background-color: #f2f2f2;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.container-footer{
+    padding: 10px 25px;
+}
+
+.pais{
+    border: 1px solid #e4e4e4;
+    padding-left: 23px;
+}
+
+footer p{
+    font-size: 14px;
+}
+
+footer ul{
+    padding-left: 0;
+    display: inline;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: #555;
+}
+
+footer ul a:hover{
+    text-decoration: underline;
+}
+
+
+.links-esquerda{
+    width: 100%;
+    max-width: 400px;
+}
+
+
+.links-esquerda li:first-child{
+    margin-left: 0;
+}
+
+.links-esquerda li{
+    margin-right: 20px;
+}
+
+footer ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.links-direita{
+    text-align: right;
+    width: 400px;
+    position: absolute;
+    right: 0;
+    margin-top: 0;  
+    padding-right: 30px;
+}
+
+.links-direita li{
+    margin-left: 20px;
+}
+
+
+
+/*NÃO ESQUECER DE POR O FAVICON*/
