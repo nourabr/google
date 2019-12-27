@@ -20,6 +20,6 @@ This is a project made with scholar purpose.
 
 I'm coding some diferent pages from popular websites and trying to make a copy of them using just Front-End languages, like HTML, CSS, Javascript.
 
-For those who wants to learn or improve your skills, **I strongly recomend** for you to do the same.
+For those who wants to learn or improve your skills, **I strongly recommend** for you to do the same.
 
 Feel free to download the source code for consulting or if you want, to make it even better.
